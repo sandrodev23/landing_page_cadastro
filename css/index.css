@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+}
+body {
+  height: 100vh;
+  background-color: #3b78ebee;
+}
+
+nav.sidebar {
+  width: 300px;
+  height: 100%;
+  background-color: rgb(14, 14, 48);
+  padding: 40px 0 40px 1%;
+  box-shadow: 3px 0 0 #ffffffee;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.btn-expandir {
+  width: 100%;
+  padding-left: 10px;
+}
+.btn-expandir > i {
+  color: #fff;
+  font-size: 27px;
+  cursor: pointer;
+}
+ul {
+  height: 100%;
+  list-style-type: none;
+}
+ul li.intem-menu {
+  transition: 1s;
+}
+ul li.intem-menu:hover {
+  background-color: rgba(57, 118, 250, 0.733);
+}
+ul li.intem-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 4%;
+  display: flex;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+ul li.intem-menu a .txt-link {
+  margin-left: 28px;
+}
+ul li.intem-menu a .icon > i {
+  font-size: 28px;
+  margin-left: 8px;
+}
